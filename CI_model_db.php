@@ -1,4 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
 /**
  * MediaLinks
  *
@@ -24,6 +25,7 @@
  * @author		MediaLinks Dev Team, Ajith Abraham
  * @link		https://medialinks.in
  */
+
 class Modeldb extends CI_Model {
 
 	/**

@@ -1,8 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Model extends CI_Controller {
-
 	/**
 	 * Index Page for this controller.
 	 *
@@ -17,6 +15,12 @@ class Model extends CI_Controller {
 	 * So any other public methods not prefixed with an underscore will
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
+	 */
+
+class Model extends CI_Controller {
+
+	/**
+	 * Description
 	 */
 	 
 	public function __construct()
@@ -39,6 +43,10 @@ class Model extends CI_Controller {
 			exit; 
 		}
 	}
+	
+	/**
+	 * Description
+	 */
 	
 	public function index()
 	{
